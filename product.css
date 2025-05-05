@@ -1,0 +1,178 @@
+            body {
+                background-color: #F8EDE3;
+            }
+
+            .navbar ul {
+                text-align: center;
+                font-size: medium;
+                margin: 0px;
+                padding: 0px;
+                font-size: large;
+                width: 100%;
+            }
+            a:hover
+            {
+                background-color: black;
+                transition: ease 0.5s;
+                border-radius: 20px;
+              
+            }
+
+            h1,
+            footer {
+                text-align: center;
+
+            }
+
+            h4 {
+                text-align: center;
+            }
+
+            .c-image {
+                object-fit: fill;
+                width: auto;
+                margin-left: auto;
+                margin-right: auto;
+                height: 30rem;
+            }
+
+            .playfair-display-content {
+                font-family: "Playfair Display", serif;
+                font-optical-sizing: auto;
+                font-weight: 300;
+                font-style: normal;
+                font-size: large;
+            }
+
+            .notable-regular {
+                font-family: "Notable", serif;
+                font-weight: 200;
+                font-style: normal;
+            }
+
+            .brandname {
+                font-family: "Playwrite CL", serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+
+            }
+
+            .btn {
+                font-family: "Lexend Tera", serif;
+                font-optical-sizing: auto;
+                font-weight: 200;
+                font-style: normal;
+                column-gap: 5rem;
+            }
+
+            /* From Uiverse.io by G4b413l */ 
+.card {
+    position: relative;
+    width: 11.875em;
+    height: 16.5em;
+    box-shadow: 0px 1px 13px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 120ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 0.5em;
+    padding-bottom: 3.4em;
+    border-radius: 20px;
+  }
+  
+  .card::after {
+    content: "Add to Cart";
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    padding-left: 1.25em;
+    position:relative;
+    left: 0;
+    bottom: -40px;
+    background: #8D493A;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    transition: all 80ms;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0;
+  }
+  
+  .card .title {
+    font-size: 1em;
+    position: absolute;
+    left: 0.625em;
+    bottom: 4em;
+    font-weight: 400;
+    color: #8D493A;
+  }
+  
+  .card .price {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.9em;
+    position: absolute;
+    left: 0.625em;
+    bottom: 3em;
+    color: #000;
+  }
+  
+  .card:hover::after {
+    bottom: 3em;
+    opacity: 1;
+  }
+  
+  .card:active {
+    transform: scale(0.98);
+  }
+  
+  .card:active::after {
+    content: "Added !";
+    height: 3.125em;
+  }
+  
+  .text {
+    max-width: 55px;
+  }
+  
+  .image {
+    background: rgb(241, 241, 241);
+    width: 85%;
+    height: 75%;
+    display:grid;
+    place-items: center;
+    position:relative;
+  }
+
+  .input 
+            {
+                max-width: 190px;
+                padding: 0.875rem;
+                font-size: 1rem;
+                border: none;
+                border-radius: 0.5rem;
+                outline: none;
+                transition: ease 0.25s;
+                margin-bottom: 10px;
+                
+            }
+
+            .input:hover {
+            box-shadow: 5.5px 7px 0 rgb(237, 224, 224);
+            }
+
+            .dateTime:hover
+            {
+                background-color: #c46c58;
+                cursor: none;
+
+
+            }
+
+
+
+            
+
+            

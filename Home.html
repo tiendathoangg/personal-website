@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf 8">
+        <meta name="author" content="Tien Dat Hoang">
+        <meta name="description" content= "Tien's Aesthetic">
+        <meta name="viewport"content="width=device-width, initial-scale=1,shrink-to-fit=no">
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+        <title> TIEN 'S AESTHETIC </title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chango&family=Notable&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"> <!--Notable for navigation bars, Playfair for text contents-->
+        <link href="https://fonts.googleapis.com/css2?family=Engagement&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+CL:wght@100..400&display=swap" rel="stylesheet"> <!--Playwrite for brandname-->
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100..900&display=swap" rel="stylesheet"> <!--Lexend Tera for buttons-->
+        
+    
+
+        <style>
+           
+            body
+            {
+                background-color: #F8EDE3;
+            }
+            a:hover
+            {
+                background-color: black;
+                transition: ease 0.5s;
+                border-radius: 20px;
+              
+            }
+
+            .navbar ul
+            {
+                text-align: center;
+                font-size: medium;
+                margin: 0px;
+                padding: 0px;
+                font-size: large;
+                width: 100%;
+                
+              
+            }
+            h1,footer
+            {
+                text-align: center;
+
+            }
+            .c-image
+            {
+                object-fit:fill;
+                width:fit-content;
+                margin-left: auto;
+                margin-right: auto;
+                height: 50rem;
+            }
+
+               
+            .playfair-display-content
+            {
+                font-family: "Playfair Display", serif;
+                font-optical-sizing: auto;
+                font-weight: 300;
+                font-style: normal;
+                font-size: large;
+            }
+
+            .notable-regular 
+            {
+               font-family: "Notable", serif;
+               font-weight: 200;
+               font-style: normal;
+            }
+
+            .brandname
+            {
+                font-family: "Playwrite CL", serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+
+            }
+            .btn
+            {
+                font-family: "Lexend Tera", serif;
+                font-optical-sizing: auto;
+                font-weight: 200;
+                font-style: normal;
+            }
+
+            .input 
+            {
+                max-width: 190px;
+                padding: 0.875rem;
+                font-size: 1rem;
+                border: none;
+                border-radius: 0.5rem;
+                outline: none;
+                transition: ease 0.25s;
+                margin-bottom: 10px;
+                
+            }
+
+            .input:hover {
+            box-shadow: 5.5px 7px 0 rgb(237, 224, 224);
+            }
+
+            .dateTime:hover
+            {
+                background-color: #c46c58;
+                cursor: none;
+
+            }
+    
+        </style>
+
+    </head>
+
+    <body> 
+        <h1 class ="brandname"> tien's aesthetic </h1> <!--Needs to adjust Font-->
+
+        <nav class = "navbar sticky-top" style = "background-color: #8D493A; color: white;"> <!--Needs to adjust background color-->
+            <ul class= "navbar list-inline notable-regular" style="list-style-type: none; ">
+            
+                 <li class = "navbar-item">
+                    <a class = "nav-link active"  href = "#About"> About Us </a>
+                 </li>
+                 <li class = "navbar-item">
+                    <a class = "nav-link active"  href = "Product.html"> Products </a>
+                 </li>
+                 <li class = "navbar-item">
+                    <a class = "nav-link active"  href = "LearnMore.html"> Learn More </a>
+                 </li>
+                 
+            </ul>
+        </nav>
+
+        <!--Carousel effects for imanges-->
+
+        <div class = "container my-3">
+        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src = "image1.jpg" class="d-block c-image " alt="Image 1">
+              </div>
+              <div class="carousel-item">
+                <img src = "image2.jpg" class="d-block c-image " alt="Image 2">
+              </div>
+              <div class="carousel-item">
+                <img src="image3.jpg" class="d-block c-image " alt="Image 3">
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button"  data-bs-target="#carouselControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" style = "background-color:#8D493A;" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" style = "background-color:#8D493A;" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
+
+
+       <!--About Us Section-->
+
+        <div id = "About" class = "container-fluid playfair-display-content" style = "background-color: #DFD3C3; border-radius: 20px;">
+            <h2 style = "text-align: center; color:#8D493A;"> <strong> <em> About Us </em></strong>  </h2>
+            <p style = "padding: 3px" > 
+                At <span style = "color: #8D493A" > tien's aesthetics </span> , we believe that beauty should be an extension of your natural radiance, not a compromise of your well-being. That’s why we’ve crafted a line of high-quality, non-toxic cosmetics designed to enhance your unique features while caring for your skin.
+            </p>
+
+            <p style = "padding: 3px" > Our carefully curated collection—spanning foundation, lip products, and blush—uses nature-based ingredients that nourish, protect, and celebrate your skin. From the purest plant extracts to sustainably sourced minerals, every product is thoughtfully formulated to offer vibrant, lasting results without harmful chemicals.
+
+            </p>
+
+            <p>
+                At <span style = "color: #8D493A" > tien's aesthetics </span> , we’re more than makeup; we’re a commitment to clean beauty, sustainability, and the celebration of your natural glow. Join us in redefining beauty with products that are as kind to the earth as they are to your skin.
+
+            </p>
+        </div>
+
+        <div class = "container mx-auto"> <!--Cards Container-->
+            <div class="row gx-5 mx-5 my-3">
+                <div class = "col-md-4">
+                    <div class="card" style=" background-color: #F8EDE3;">
+                         <img src="Card1.jpg" class="card-img-top" alt="Foundation Cover">
+                     <div class="card-body">
+                        <p class="card-text playfair-display-content">
+                            Have self-assurance, connect with others, and let your skin to speak for itself. Natural beauty is a way of life with <span style = "color: #8D493A" > tien's aesthetics </span>, not just an objective.
+
+                        </p>
+                    </div>
+                        <a href = "Product.html" class = "btn" style="background-color: #8D493A; color: white;">  Shop Foundation</a>
+                    </div>
+                </div>
+
+                 <div class = "col-md-4">
+                    <div class = "card" style = "background-color: #F8EDE3; ">
+                        <img src = "lipcard.jpg" class="card-img-top" alt="Lip Cover">
+                    <div class="card-body">
+                            <p class="card-text playfair-display-content">
+                                Whether you’re heading out for a casual day or adding the finishing touch to your evening look, <span style = "color: #8D493A" > tien's aesthetics </span> combines the care of a balm with the sophistication of color, making it an essential in your beauty routine.                            </p>
+                    </div>
+                            <a href = "Product.html" class = "btn" style="background-color: #8D493A; color: white;"> Shop Lips Stick</a>
+                    
+                    </div> 
+                </div>    
+                    
+                    <div class = "col">
+                        <div class = "card" style = "background-color: #F8EDE3; ">
+                            <img src = "blushcard.jpg" class="card-img-top" alt="Blush Cover">
+                        <div class="card-body">
+                                <p class="card-text playfair-display-content">
+                                    Crafted with long-lasting, nature-inspired pigments, this lightweight formula stays fresh and flawless all day, resisting fading or smudging even during your busiest moments. Infused with nourishing botanical ingredients, our blush not only enhances your complexion but also cares for your skin, offering a silky-smooth finish that feels as good as it looks.
+                                </p>
+                        </div>
+                                <a href = "Product.html" class = "btn" style="background-color: #8D493A; color: white;"> Shop Blush</a>
+                    
+                        </div>
+                    </div>   
+            </div>
+        </div> <!--End cards container-->
+        
+        <br>
+
+        <div id = "Values" class = "container-fluid playfair-display-content" style = "background-color: #DFD3C3; border-radius: 20px;">
+        <div class = "row mx-5">
+            <div class = "col-md-6 g-2">
+            <h2 style = "text-align: center; color:#8D493A;"> <strong> <em> Our Values </em></strong>  </h2>
+            <p style = "padding: 3px" > 
+                At <span style = "color: #8D493A" > tien's aesthetics </span> we believe that beauty is not something you create—it’s something you already possess. 
+                Our mission is to celebrate the natural beauty within every person. We don’t aim to redefine you; we aim to enhance the glow that’s inherently yours.
+                With products crafted to complement and highlight your authentic self, we strive to empower you to feel confident, radiant, and unapologetically you.
+                Because true beauty begins with embracing who you are.
+
+            </p>
+        </div>
+
+        <div class = "col-md-6 g-2">
+
+            <h2 style = "text-align: center; color:#8D493A;"> <strong> <em> Our Commitments </em></strong>  </h2>
+            <p style = "padding: 3px" > 
+                At <span style = "color: #8D493A" > tien's aesthetics </span>, we are dedicated to creating cosmetics that prioritize your well-being and the planet. 
+                Our products are crafted with natural-based ingredients, ensuring they are gentle, nourishing, and safe for all skin types. We are unwavering in our 
+                commitment to ethical practices—our formulations are cruelty-free, and we never test on animals. With [Brand Name], you can embrace beauty that’s kind
+                 to your skin, kind to animals, and kind to the Earth.
+
+            </p>
+            </div>
+        </div>
+
+        </div>
+
+        <br>
+
+
+        <footer style = "background-color: #8D493A; color: white; border-radius: 20px;" >
+            <h1 class = "brandname" style = "color:white"> tien's aesthetics</h1>
+            <div class = "container">
+                <div class = "row  gx-5 mx-5 my-3">
+                    <div class = "col-12 col-md-6">
+                        <h2 class = "playfair-display-content" style = "text-align: left;"> Sign up for email and/or texts for the latest updates, special offers, and more.</h2>
+                        <p style ="text-align: left;"> By entering your email address, you agree to receive marketing email messages from tien's aesthetics at the email address provided. Unsubscribe at any time. View our Privacy Policy & Terms of Service.</p>
+                        <input placeholder="Email address" class="input" name="text" type="email" />
+                        <br>
+                        <p style ="text-align: left;">
+                             By entering your phone number, you agree to receive recurring automated promotional and personalized marketing 
+                             text messages (e.g. cart reminders) from tien's aesthetics at the cell number used when signing up. 
+                             Consent is not a condition of purchase. Message and data rates may apply. Message frequency varies. 
+                             Reply HELP for help or STOP to cancel text messages. View our Privacy Policy & Terms of Service.
+                        </p>
+                        <input placeholder="Phone number" class="input" name="text" type="text" />
+                    
+                    </div>
+                
+                    <div class = "col col-md-6">
+
+                        <h2> Customer Service </h2>
+                        <ul class ="playfair-display-content" style = "list-style-type: none; text-align: center;">
+                            <li> Shipping & Returns </li>
+                            <li> FAQs </li>
+                            <li> Accessibility </li>
+                        </ul>
+
+                        <ul class ="playfair-display-content" style = "list-style-type: none; text-align: center;">
+                            <li> <a href="https://www.facebook.com" style ="color:white"> Facebook </a> </li>
+                            <li> <a href="https://www.instagram.com" style ="color:white"> Instagram </a></li>
+                            <li> <a href="https://www.tiktok.com" style ="color:white"> TikTok </a></li>
+                        </ul>
+                    </div>
+                <div class = "playfair-display-content dateTime" >
+                <h3> 
+                    Thank you for visiting us today <script> document.write(new Date().toLocaleDateString()); </script>
+                    at <script> document.write(new Date().toLocaleTimeString());</script>
+                </h3>
+                </div>
+        </footer>
+
+
+
+    
+
+    <!--JavaScript Plug-in-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+        
+    </body>
+</html>
